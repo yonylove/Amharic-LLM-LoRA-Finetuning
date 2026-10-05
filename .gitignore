@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training outputs and checkpoints
+amharic-qwen3-0.6b-lora/
+amharic-qwen3-0.6b-merged/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local credentials / secrets
+.env
+*.token
+tokenizer.json.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

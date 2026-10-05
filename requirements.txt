@@ -1,0 +1,19 @@
+# Core training stack
+transformers>=4.51.0
+datasets>=3.0.0
+trl>=0.26.0
+peft>=0.14.0
+accelerate>=1.2.0
+huggingface_hub>=0.30.0
+
+# Tokenization / model serialization
+sentencepiece
+safetensors
+
+# Data and numerical utilities used by the notebook
+numpy
+pandas
+
+# Optional 4-bit / QLoRA-style loading
+# Install separately when using USE_4BIT=True:
+# bitsandbytes
